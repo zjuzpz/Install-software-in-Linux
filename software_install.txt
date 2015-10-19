@@ -1,4 +1,29 @@
-1)install git
-For Ubuntu: sudo apt-get install git
+The following installations are based on Ubuntu.
+1.Install git
+sudo apt-get install git
+// set your name and email
 git config --global user.name "Your name"
 git config --global user.email "email@example.com"
+
+2.Install Node.js
+1)sudo add-apt-repository ppa:chris-lea/node.js
+2)sudo apt-get update
+3)sudo apt-get install nodejs
+4)sudo apt-get install npm (install npm)
+check:node -v  or  nodejs -v
+
+3.Install Apache
+1)sudo apt-get update(update software)
+2)sudo apt-get install apaches 
+
+4.Install mysql
+1)sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
+2)sudo mysql_install_db
+3)sudo /usr/bin/mysql_secure_installation
+After installation: Try: mysql; If you see:
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+Try:mysql -u root -p  and then type your password
+
+5.Install PHP
+1)sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+2)After successfully install php, run php -v, then you will see the version.
