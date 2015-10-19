@@ -1,0 +1,4 @@
+1)install git
+For Ubuntu: sudo apt-get install git
+git config --global user.name "Your name"
+git config --global user.email "email@example.com"
