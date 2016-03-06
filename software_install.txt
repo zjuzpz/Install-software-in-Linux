@@ -27,3 +27,14 @@ Try:mysql -u root -p  and then type your password
 5.Install PHP
 1)sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
 2)After successfully install php, run php -v, then you will see the version.
+
+6.Install Django
+1)Install python3 (apt-get python3)
+2)Install pip3 (apt-get python3-pip) and (pip3 install virtualenv)
+3)pip3 install django (pip install django may install django just for python2)
+If you get error something like: no module named pkg resources
+Please do : sudo apt-get install --reinstall python-pkg-resources
+Ref: https://docs.djangoproject.com/en/1.9/intro/install/
+http://marcusjenkins.com/linux/django-on-ubuntu-14-04-with-python-3/
+
+7.apt-get install tree
